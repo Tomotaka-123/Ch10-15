@@ -1,0 +1,25 @@
+.main {
+    color: white;
+}
+
+.main h1 {
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid white;
+    
+}
+
+td, th {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: green;
+}

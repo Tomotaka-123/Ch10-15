@@ -1,0 +1,23 @@
+.main h1{
+    color: white;
+    font-size: 300px;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 100px;
+}
+
+.main ul {
+    text-align: center;
+}
+
+ul a.btn-in-home{
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+ul a.btn-in-home:hover {
+    color: black;
+    background-color: white;
+}

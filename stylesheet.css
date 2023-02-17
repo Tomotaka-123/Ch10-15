@@ -1,0 +1,98 @@
+html {
+    font-family: "Audiowide", sans-serif;
+    background-color: black;
+    min-width: 700px;
+}
+
+.top-nav {
+    color: white;
+   
+    
+}
+
+.top-nav li{
+    list-style-type: none;   
+    display: inline;
+    
+}
+
+.top-nav li a {
+    text-decoration: none;
+    color: white;
+
+    padding: 15px;
+}
+
+.top-nav li a:hover {
+    color: black;
+    background-color: white;
+}
+
+.user-account {
+    float:right;
+}
+#btn-login a {
+    color: black;
+    background-color: white;
+    
+}
+#btn-login a:hover {
+    color: green;
+}
+
+
+
+#black-hole-link {
+    color: white;
+}
+
+.paragraph {
+    margin: 100px;
+    font-size: large;
+}
+
+.topic {
+    color: #c3f7f7;
+}
+
+#fist-topic {
+    text-align: center;
+}
+#second-topic {
+    text-align: right;   
+}
+.space-paragraph {
+    color: white;
+    
+    /* padding create space between contents and margin. Also padding does not have color. 
+    But it can be dyied by specifying backgound color. The background color will be applied the content as well.
+    An example is below*/
+    padding: 20px;
+    background: linear-gradient(#2C3E50, #4CA1AF);
+
+    /*border create a line around padding. It can be colored. 
+    However, when border is declared, it also has to be declared with how you want the line to be such as solid and dotted.
+    Otherwise, the border won't be created. An example is below*/
+    border: 10px solid;
+    border-color: white;
+
+    /* margin create space around margin. It cannot be dyied by any method. 
+    It just create space to push elements. An example is below.*/
+    margin: 10px;
+}
+
+.space-paragraph.second{
+    line-height: 50px;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+span.underline{
+    text-decoration: underline;
+}
+
+span.underline#second-thesis {
+    text-decoration-thickness: 2.5px;
+}
